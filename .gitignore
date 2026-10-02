@@ -1,0 +1,27 @@
+# Dependências / build
+node_modules/
+dist/
+build/
+target/
+.gradle/
+coverage/
+*.class
+*.jar
+*.exe
+*.test
+vendor/
+
+# Ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# IDE / SO
+.idea/
+.vscode/
+*.log
+*.stackdump
+.DS_Store
+
+# Claude Code local
+.claude/settings.local.json
